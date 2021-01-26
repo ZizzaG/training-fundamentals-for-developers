@@ -1,8 +1,10 @@
 require('dotenv').config();
 const cloudinary = require('cloudinary').v2;
 
-cloudinary.uploader.upload('assets/images/giraffe.jpg', {
-    backup: true
+cloudinary.uploader.upload('assets/images/kitten.jpg', {
+    backup: true,
+    public_id: 'kitten',
+    unique_filename: false
   })
   .then(restoreResult => console.log(restoreResult))
   .catch(error => console.error(error));
