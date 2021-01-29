@@ -15,4 +15,4 @@ cloudinary.uploader.upload('http://pluspng.com/img-png/aviator-20sunglasses-20ve
     .catch(error => console.error(error))
 
 
-    // https://res.cloudinary.com/<cloud_name>/image/upload/fl_region_relative,g_adv_eyes,l_sunglass,w_1.7/arya-stark
+    // https://res.cloudinary.com/drbjuxc0b/image/upload/fl_region_relative,g_adv_eyes,l_sunglass,w_1.7/arya-stark
